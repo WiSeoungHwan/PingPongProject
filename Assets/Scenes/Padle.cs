@@ -9,7 +9,7 @@ public class Padle : MonoBehaviour {
     float height;
 
     string input;
-    bool isRight; 
+    public bool isRight;
 	// Use this for initialization
 	void Start () {
         height = transform.localScale.y;
